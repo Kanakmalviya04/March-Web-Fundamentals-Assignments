@@ -1,0 +1,47 @@
+body{
+}
+.MAIN{
+    display: grid;
+    border: 2px solid grey;
+    grid-template-columns: repeat(3, 250px);
+    width: 660px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+}
+.page2{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(114, 113, 113);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.A{
+    width: 305px;
+}
+.B, .H{
+    margin-left: 85px;
+}
+.C, .I{
+    margin-left: 0px;
+}
+.E{
+    margin-left: -80px;
+}
+.F{
+    margin-left: -165px;
+}
+.G{
+    padding: 40px;
+    padding-right: 135px;
+}
+.K{
+    margin-top: -58px;
+    margin-left: 85px;
+}
+.J{
+    width: 470px;
+}
