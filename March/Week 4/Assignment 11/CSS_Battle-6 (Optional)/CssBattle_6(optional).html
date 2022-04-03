@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BATTLE_6(optional)</title>
+    <style>
+        * {
+        margin:0px;
+        padding:0px;
+      }
+      .outer{
+        width:100%;
+        height:100%;
+        background:#E3516E;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+      .row{
+        display:flex;
+        flex-direction:row;
+      }
+     .cube{
+        width: 100px;
+        height: 100px;
+      }
+      .green{
+        background:#51B5A9;
+        border-top-left-radius:150px;
+      }
+      .yellow{
+        background:#FADE8B;
+        border-top-right-radius:150px;
+      }
+      .pale{
+        background:#F7F3D7;
+        border-bottom-left-radius:150px;
+      }
+    </style>
+</head>
+<div class="outer">
+    <div class="wrapper">
+      <div class="row">
+      <div class="cube green"></div>
+      <div class="cube yellow"></div>
+        </div>
+      <div class="row">
+      <div class="cube pale"></div>
+        </div>
+    </div>
+      </div>
+</html>

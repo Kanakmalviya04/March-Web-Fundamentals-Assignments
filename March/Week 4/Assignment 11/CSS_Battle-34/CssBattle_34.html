@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BATTLE_34</title>
+    <div></div>
+    <style> body {
+      background: #007065;
+    }
+    div{
+  border-bottom:100px solid #00A79D;
+  border-left:125px solid transparent;
+  border-right:125px solid transparent;
+      position:absolute;
+      bottom:50px;
+      left:50%;
+      transform:translateX(-50%);
+    }
+div:before,
+div:after{
+    content:'';
+  border-left:125px solid transparent;
+  border-right:125px solid transparent;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+    }
+div:before{
+   top:-50px;
+   border-bottom:100px solid #F5C181;
+}
+div:after{
+   top:-100px;
+   border-bottom:100px solid #FFEECF;
+}
+</style>
+    
+    </div>
+</body>
+</html>
