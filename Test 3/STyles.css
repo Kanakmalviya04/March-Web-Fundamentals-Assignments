@@ -1,0 +1,13 @@
+.main{
+    width: 600px;
+    height: 200px;
+    background-color: bisque;
+}
+button{
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px;
+    background-color: rgb(138, 255, 123);
+}
