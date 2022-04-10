@@ -1,0 +1,31 @@
+h1{
+    width: 800px;
+    text-align: center;
+    background-color: rgb(250, 209, 209);
+}
+.one{
+    background-image: url('https://cricketaddictor.com/wp-content/uploads/2021/04/Virat-Kohli-11.jpg');
+    height: 300px;
+    width: 500px;
+}
+.two{
+    background-image: url('https://c.ndtvimg.com/2022-02/rkgbh19_cristiano-ronaldo-afp_625x300_25_February_22.jpg?im=FaceCrop,algorithm=dnn,width=500,height=305');
+    height: 300px;
+    width: 500px;}
+.three{
+    background-image: url('https://metro.co.uk/wp-content/uploads/2022/03/GettyImages-1387735586-19d7.jpg?quality=90&strip=all&w=500&h=300&crop=1&zoom=1');
+    height: 300px;
+    width: 500px;}
+.four{
+    background-image: url('https://images.news18.com/ibnlive/uploads/2020/09/1600689729_2020_9largeimg_3337501141.jpg?impolicy=website&width=508&height=300');
+    height: 300px;
+    width: 500px;}
+.five{
+    background-image: url('https://www.mumbaiindians.com/static-assets/waf-images/e0/fc/1a/4-3/500-305/BHtG0LpJA3.jpg');
+    height: 300px;
+    width: 500px;}
+p:hover{
+    border-radius: 50%;
+    cursor: grab;
+    margin: 70px 0 70px 150px;
+}

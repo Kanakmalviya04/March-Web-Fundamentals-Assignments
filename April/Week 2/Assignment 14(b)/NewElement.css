@@ -1,0 +1,23 @@
+h1{
+    width: 800px;
+    text-align: center;
+    background-color: rgb(250, 209, 209);
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: rgb(71, 224, 224);
+}
+.three{
+    background-color: rgb(128, 216, 216);
+}
+.four{
+    background-color: rgb(181, 228, 228);
+}
+.five{
+    background-color: rgb(127, 255, 212);
+}
+p:hover{
+    font-size: 60px;
+}
