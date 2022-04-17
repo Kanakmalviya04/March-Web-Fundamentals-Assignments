@@ -1,0 +1,16 @@
+*{
+    background-color: aquamarine;
+}
+b{
+    background-color: rgb(252, 97, 70);
+}
+#image{
+    height: 250px;
+    width: 350px;
+    border-radius: 20%;
+}
+.change-It{
+    height: 500px;
+    width: 400px;
+    border-radius: 20%;
+}

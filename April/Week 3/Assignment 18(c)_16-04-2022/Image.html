@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Button_switch By KANAK M</title>
+    <style>
+      div {
+        width: 500px;
+        padding: 30px;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+        margin: 100px auto;
+        background-color: rgb(252, 215, 210);
+      }
+      h2{
+        margin-top:-5px;
+        width: inherit;
+      }
+      button {
+        background-color: rgb(35, 21, 240);
+        border: none;
+        color: rgb(246, 250, 189);
+        font-size: 20px;
+        border-radius: 4px;
+        box-shadow: 0 10px 20px red;
+        padding: 10px 30px;
+        margin-right: 10px;
+        margin-top: 20px;
+      }
+    </style>
+    <script>
+      function Friend() {
+        var imgRef1 = document.getElementById("img1");
+        imgRef1.src =
+          "https://images.pexels.com/photos/1250346/pexels-photo-1250346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+
+      }
+      function Family() {
+
+        var imgRef = document.getElementById("img1");
+
+        imgRef.src =
+          "https://images.pexels.com/photos/4259140/pexels-photo-4259140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+        imgRef.style.borderRadius = '80px'
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <marquee behavior="alternate" width="300px"><h2>   You Have Two Ways...</h2></marquee>
+      <img
+        id="img1"
+        src="https://images.pexels.com/photos/1578750/pexels-photo-1578750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        width="450"
+        height="300"
+      />
+      <br/>
+      <button onclick="Friend()">Friend</button>
+
+      <button onclick="Family()">Family</button>
+    </div>
+  </body>
+</html>
