@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding_Prime_Numbers</title>
+</head>
+<body>
+    <script>
+        function prime(){
+            const h = document.querySelector('div')
+            var num = document.querySelector('input').value
+            for (let i = 1; i <= num; i++) {
+                let flag = 0;
+            for (let j = 2; j < i; j++) {
+              if (i % j == 0) {
+               flag = 1;
+             break;
+        }
+    }
+              if (i > 1 && flag == 0) {
+                var h21 = document.createElement("h3").innerText=`${i},  `
+                h.append(h21)
+                console.log(i);
+    }       
+
+}
+        }
+    </script>
+    <style>
+        div{
+            height: 300px;
+            width: 400px;
+            background-color: rgb(174, 247, 126);
+            text-align: center;
+            margin: 50px 470px;
+            padding-top: 20px;
+            border-radius: 5px;
+        }
+        b{
+            background-color: rgb(252, 207, 147);
+            border-radius: 4px;
+            color: rgb(87, 15, 15);
+            text-shadow: 1px 8px 4px black;
+        }
+        input{
+            padding: 5px;
+            width: 200px;
+            border-radius: 3px;
+        }
+        button{
+            padding: 8px;
+            color: rgb(83, 12, 54);
+            font-weight: bolder;
+            background-color: rgb(91, 199, 20);
+            border-radius: 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <div>
+        <h2>Enter Any Number For Find <br><b>PRIME_SERIES</b></h2>
+        <input id="input" type="number" placeholder="Enter Any Number"/><br><br>
+        <button onclick="prime()">PRIME_NUM</button><br><br>
+        </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function For Divide</title>
+    <script>
+        
+        // make a function which will devide each element of array by 2 
+        const x = [11,21,31,41,51]
+        const y = [1,2,3,4,5]
+        const z = [8,7,6,5,3]
+
+        function divide(arr){
+            // const newTag = document.getElementsByTagName('body')
+            // const newTag2 = document.createElement('pre')
+
+            var newArr = []
+        for (let i = 0; i < arr.length; i++) {
+            const arrElement = arr[i]/2;
+            newArr.push(arrElement)
+            // newTag2.innerHTML = newArr
+        }
+        console.log(newArr)
+       
+        // newTag.appendChild(newTag2)
+        
+        }    
+
+    </script>
+    <style>
+        h3{
+            background-color: rgb(250, 158, 142);
+            width:310px;
+        }
+        button{
+            background-color: aquamarine;
+            border: 2px solid  red;
+            padding: 20px;
+            border-radius: 50%;
+        }
+        button:hover{
+            background-color: rgb(55, 168, 168);
+        }
+    </style>
+</head>
+<body>
+    <h3>Function Using For Divide An Array...</h3>
+    <button onclick="divide(x)">Click me for X</button>
+    <button onclick="divide(y)">Click me for Y</button>
+    <button onclick="divide(z)">Click me for Z</button>
+    <h2>Use Console To See Output :-</h2>
+</body>
+</html>
